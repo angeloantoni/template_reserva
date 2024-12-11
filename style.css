@@ -105,3 +105,39 @@ body{
     width: 2.4rem;
     height: 2.4rem;
 }
+
+.reservas {
+    color: var(--citrino-dark);
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 2.1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cabecalho th{
+    text-align: left;
+    border-bottom: 100px;
+
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reservado {
+    text-align: left;
+    width: 100;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.nome {
+    text-align: left;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
