@@ -118,26 +118,105 @@ body{
     border-radius: 5px;
 }
 
-.cabecalho th{
-    text-align: left;
-    border-bottom: 100px;
+.reservas_cabecalho {
+    display: flex;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    font-size: 12px;
+    color: var(--Office);
+    font-weight: bolder;
+}
+
+.status {
+    margin-right: 65px;
+}
+.organizador {
+    margin-right: 65px;
+}
+.recurso {
+    margin-right: 65px;
+}
+.checkin {
+    margin-right: 65px;
+}
+.checkin {
+    margin-right: 65px;
+}
+
+.reservas_linha_um{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.reservas_linha_um .status {
+    width: 68px;
+    height: 20px;
+
+    margin-top: 10px;
+    background-color: var(--office-30);
+    border-radius: 2px;
+
+}
+.reservas_linha_um .status .conteudo{
+    font-weight: bold;
+    font-size: 10px;
+    color: var(--Office);
+
+}
+.reservas_linha_um .organizador .icone {
+    align-items: left;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.reservas_linha_um .organizador .conteudo {
+    font-size: 12px;
+    display: inline-block;
+    color: var(--citrino-dark);
+    align-items: left;
+
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.reservas_linha_um .recurso .conteudo {
+    font-size: 12px;
+    display: inline-block;
+    color: var(--Office);
+
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.reservas_linha_um .checkin .conteudo {
+    font-size: 12px;
+    display: inline-block;
+    color: var(--Office);
 
 
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-.reservado {
-    text-align: left;
-    width: 100;
+.reservas_linha_um .acoes button{
+    width: 72px;
+    height: 26px;
+    background-color: #FD2600;
 
     border: 1px solid #ddd;
     border-radius: 5px;
+
+    color: #FFFFFF;
+
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.nome {
-    text-align: left;
 
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
